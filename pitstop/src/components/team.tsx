@@ -12,7 +12,7 @@ import murilo from "@/assets/murilo.png"
 
 export const Team = () => {
   return (
-    <section id="team" className="text-white body-font">
+    <section id="team" className="text-white body-font bg-[#0a0a0a]">
         
         
 

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Content = () => {
   return (
-    <section id="content" className="text-gray-600 body-font">
+    <section id="content" className="text-gray-600 body-font bg-[#0a0a0a]">
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

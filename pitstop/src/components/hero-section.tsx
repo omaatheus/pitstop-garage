@@ -15,13 +15,13 @@ export const HeroSection = () => {
   };
 
   return (
-    <section id="hero-section" className="text-white body-font">
-      <div className="bg-white">
+    <section id="hero-section" className="text-white body-font bg-[#0a0a0a]">
+      <div className="bg-black">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+              <a href="../" className="-m-1.5 p-1.5">
+                <span className="sr-only">Pitstop Garage</span>
                 {!menuOpen && (
                   <Image
                     className="h-8 w-auto"
@@ -39,7 +39,7 @@ export const HeroSection = () => {
                 className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
                 onClick={toggleMenu} // Lógica para alternar o menu
               >
-                <span className="sr-only">Open main menu</span>
+                <span className="sr-only">Abra o menu principal</span>
                 {/* Alternando entre ícone de hambúrguer e X */}
                 {!menuOpen ? (
                   <svg
@@ -77,7 +77,7 @@ export const HeroSection = () => {
 
             {/* Itens de navegação visíveis em desktop */}
             <div className="hidden lg:flex space-x-6 text-white">
-              <a href="#" className="text-lg font-semibold">Cardápio</a>
+              <a href="/cardapio" className="text-lg font-semibold">Cardápio</a>
               <a href="#" className="text-lg font-semibold">Trabalhe Conosco</a>
               <a href="#" className="text-lg font-semibold">Feedback</a>
               <a href="#" className="text-lg font-semibold">Sobre Nós</a>
@@ -119,11 +119,11 @@ export const HeroSection = () => {
           </div>
 
           {/* Itens de navegação */}
-          <a href="#" className="text-lg font-semibold">Product</a>
-          <a href="#" className="text-lg font-semibold">Features</a>
-          <a href="#" className="text-lg font-semibold">Marketplace</a>
-          <a href="#" className="text-lg font-semibold">Company</a>
-          <a href="#" className="text-lg font-semibold">Log in</a>
+          <a href="/cardapio" className="text-lg font-semibold">Cardápio</a>
+              <a href="#" className="text-lg font-semibold">Trabalhe Conosco</a>
+              <a href="#" className="text-lg font-semibold">Feedback</a>
+              <a href="#" className="text-lg font-semibold">Sobre Nós</a>
+              <a href="#" className="text-lg font-semibold">Entrar</a>
         </div>
       </div>
     </section>
