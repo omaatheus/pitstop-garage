@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import pitstopLogo from "@/assets/pitstop-logo-inteira.png";
 
+
 export const HeroSection = () => {
   // Estado para controlar a visibilidade do menu
   const [menuOpen, setMenuOpen] = useState(false);
@@ -77,11 +78,11 @@ export const HeroSection = () => {
 
             {/* Itens de navegação visíveis em desktop */}
             <div className="hidden lg:flex space-x-6 text-white">
-              <a href="/cardapio" className="text-lg font-semibold">Cardápio</a>
-              <a href="#" className="text-lg font-semibold">Trabalhe Conosco</a>
-              <a href="#" className="text-lg font-semibold">Feedback</a>
-              <a href="#" className="text-lg font-semibold">Sobre Nós</a>
-              <a href="#" className="text-lg font-semibold">Entrar</a>
+              <a href="/cardapio" className="text-lg font-medium">Cardápio</a>
+              <a href="#" className="text-lg font-medium">Trabalhe Conosco</a>
+              <a href="#" className="text-lg font-medium">Feedback</a>
+              <a href="#" className="text-lg font-medium">Sobre Nós</a>
+              <a href="#" className="text-lg font-medium">Entrar</a>
             </div>
           </nav>
         </header>
@@ -119,11 +120,11 @@ export const HeroSection = () => {
           </div>
 
           {/* Itens de navegação */}
-          <a href="/cardapio" className="text-lg font-semibold">Cardápio</a>
-              <a href="#" className="text-lg font-semibold">Trabalhe Conosco</a>
-              <a href="#" className="text-lg font-semibold">Feedback</a>
-              <a href="#" className="text-lg font-semibold">Sobre Nós</a>
-              <a href="#" className="text-lg font-semibold">Entrar</a>
+          <a href="/cardapio" className="text-lg font-medium">Cardápio</a>
+              <a href="#" className="text-lg font-medium">Trabalhe Conosco</a>
+              <a href="#" className="text-lg font-medium">Feedback</a>
+              <a href="#" className="text-lg font-medium">Sobre Nós</a>
+              <a href="#" className="text-lg font-medium">Entrar</a>
         </div>
       </div>
     </section>
