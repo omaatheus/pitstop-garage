@@ -79,7 +79,7 @@ export const HeroSection = () => {
             {/* Itens de navegação visíveis em desktop */}
             <div className="hidden lg:flex space-x-6 text-white">
               <a href="/cardapio" className="text-lg font-medium">Cardápio</a>
-              <a href="#" className="text-lg font-medium">Trabalhe Conosco</a>
+              <a href="/trabalheConosco" className="text-lg font-medium">Trabalhe Conosco</a>
               <a href="#" className="text-lg font-medium">Feedback</a>
               <a href="#" className="text-lg font-medium">Sobre Nós</a>
               <a href="#" className="text-lg font-medium">Entrar</a>
@@ -121,7 +121,7 @@ export const HeroSection = () => {
 
           {/* Itens de navegação */}
           <a href="/cardapio" className="text-lg font-medium">Cardápio</a>
-              <a href="#" className="text-lg font-medium">Trabalhe Conosco</a>
+              <a href="/trabalheConosco" className="text-lg font-medium">Trabalhe Conosco</a>
               <a href="#" className="text-lg font-medium">Feedback</a>
               <a href="#" className="text-lg font-medium">Sobre Nós</a>
               <a href="#" className="text-lg font-medium">Entrar</a>

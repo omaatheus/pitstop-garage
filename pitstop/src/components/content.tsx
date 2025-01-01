@@ -61,6 +61,7 @@ export const Content = ({
             {titleButton && linkButton && (
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
+                target="_blank"
                   href={linkButton}
                   className="rounded-md bg-[#0055f8] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0d00c0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
