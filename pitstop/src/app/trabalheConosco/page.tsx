@@ -2,7 +2,7 @@ import { Content } from "@/components/content";
 import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/hero-section";
 
-export default function trabalheConosco() {
+export default function trabalheconosco(){
   return (
     <main>
       <HeroSection/>

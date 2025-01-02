@@ -26,13 +26,13 @@ export const Footer = () => {
             <a href="/cardapio" className="text-gray-600 hover:text-gray-800">Cardápio</a>
           </li>
           <li>
-            <a href="/trabalheConosco" className="text-gray-600 hover:text-gray-800">Trabalhe conosco</a>
+            <a href="/trabalheconosco" className="text-gray-600 hover:text-gray-800">Trabalhe conosco</a>
           </li>
           <li>
             <a href="/feedback" className="text-gray-600 hover:text-gray-800">Feedback</a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-800">Sobre nós</a>
+            <a href="/sobrenos" className="text-gray-600 hover:text-gray-800">Sobre nós</a>
           </li>
         </nav>
       </div>
