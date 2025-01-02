@@ -29,7 +29,7 @@ export const Footer = () => {
             <a href="/trabalheConosco" className="text-gray-600 hover:text-gray-800">Trabalhe conosco</a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-800">Feedback</a>
+            <a href="/feedback" className="text-gray-600 hover:text-gray-800">Feedback</a>
           </li>
           <li>
             <a href="#" className="text-gray-600 hover:text-gray-800">Sobre nós</a>
@@ -43,7 +43,7 @@ export const Footer = () => {
   <div className="bg-[#0d00c0]">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className="text-white text-sm text-center sm:text-left">© 2025 Pitstop Garage —
-        <a rel="noopener noreferrer" className="text-white ml-1" >@pitstopgarage</a>
+        <a rel="noopener noreferrer" className="text-white ml-1" >@pitstop</a>
       </p>
       
     </div>
