@@ -22,7 +22,6 @@ Siga os passos abaixo para configurar o projeto localmente:
 1. Clone o repositório.
 2. Configure sua porta através do env.ts. 
 3. Rode através do comando "npm run dev".
-3. Faça as devidas requisições utilizando postman ou semelhantes.
 
 # Sugestões, feedbacks ou dicas?
 
