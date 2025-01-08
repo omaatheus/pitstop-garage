@@ -121,9 +121,9 @@ export const HeroSection = () => {
 
           {/* Itens de navegação */}
           <a href="/cardapio" className="text-lg font-medium">Cardápio</a>
-              <a href="/trabalheConosco" className="text-lg font-medium">Trabalhe Conosco</a>
+              <a href="/trabaleconosco" className="text-lg font-medium">Trabalhe Conosco</a>
               <a href="/feedback" className="text-lg font-medium">Feedback</a>
-              <a href="/sobreNos" className="text-lg font-medium">Sobre Nós</a>
+              <a href="/sobrenos" className="text-lg font-medium">Sobre Nós</a>
               <a href="#" className="text-lg font-medium">Entrar</a>
         </div>
       </div>

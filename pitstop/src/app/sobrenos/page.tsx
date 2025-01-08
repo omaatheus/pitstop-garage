@@ -5,7 +5,7 @@ import { FeatureSection } from "@/components/featureSection";
 import { Team } from "@/components/team";
 import { Feature } from "@/components/feature";
 
-export default function sobrenos(){
+export default function sobreNos(){
   return (
     <main>
       <HeroSection/>
