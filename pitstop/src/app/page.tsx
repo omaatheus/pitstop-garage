@@ -14,8 +14,8 @@ export default function Home() {
       titleButton="Vamos lá"
       event="Confira onde vai rolar nosso próximo evento"
       linkEvent="#"
-      linkButton="#"
-      linkSaibaMais="#"
+      linkButton="/trabalheConosco"
+      linkSaibaMais="/sobrenos"
       />
       <Feature />
       <Team />

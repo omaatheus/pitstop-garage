@@ -82,7 +82,7 @@ export const HeroSection = () => {
               <a href="/trabalheConosco" className="text-lg font-medium">Trabalhe Conosco</a>
               <a href="/feedback" className="text-lg font-medium">Feedback</a>
               <a href="/sobrenos" className="text-lg font-medium">Sobre Nós</a>
-              <a href="#" className="text-lg font-medium">Entrar</a>
+              <a href="/entrar" className="text-lg font-medium">Entrar</a>
             </div>
           </nav>
         </header>
@@ -124,7 +124,7 @@ export const HeroSection = () => {
               <a href="/trabalheConosco" className="text-lg font-medium">Trabalhe Conosco</a>
               <a href="/feedback" className="text-lg font-medium">Feedback</a>
               <a href="/sobrenos" className="text-lg font-medium">Sobre Nós</a>
-              <a href="#" className="text-lg font-medium">Entrar</a>
+              <a href="/entrar" className="text-lg font-medium">Entrar</a>
         </div>
       </div>
     </section>
